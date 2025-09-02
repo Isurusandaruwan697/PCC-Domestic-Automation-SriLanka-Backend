@@ -1811,6 +1811,7 @@ setInterval(() => {
   }
 }, 60 * 60 * 1000);
 
+
 // Add to your existing server.js
 
 // Get application status with detailed timeline
