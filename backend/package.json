@@ -18,13 +18,13 @@
     "mongodb-memory-server": "^10.2.0",
     "supertest": "^7.1.4"
   },
-   "scripts": {
+  "scripts": {
     "start": "node services.js",
     "dev": "nodemon services.js",
     "test": "jest --testTimeout=30000",
     "test:basic": "jest test/basic.test.js --testTimeout=30000",
     "test:simple": "jest test/simple-backend.test.js --testTimeout=30000",
-    "test:watch": "jest --watch --testTimeout=30000"
-    
+    "test:watch": "jest --watch --testTimeout=30000",
+    "test:real-db": "jest test/real-database.test.js --detectOpenHandles --forceExit"
   }
 }
